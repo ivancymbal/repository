@@ -32,8 +32,6 @@ while($date_time=mysql_fetch_array($result))
     echo($date_time['my_date'].'<br/>');
 }
 
-echo('some');
-
 ?>
 <html>
  <head>

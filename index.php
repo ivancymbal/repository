@@ -31,7 +31,7 @@ while($date_time=mysql_fetch_array($result))
     if($day[2]%2!=0)
     echo($date_time['my_date'].'<br/>');
 }
-
+   echo ("some");
 ?>
 <html>
  <head>
